@@ -75,3 +75,39 @@ heaader h1::after {
     transition: color .25s ease-in;
     cursor: pointer;
   }
+  .slider {
+    padding-top: 53px;
+    padding-bottom: 58px;
+    background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
+  }
+  .slider-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icon-page {
+    transition: transform 0.3s ease, opacity 0.2s linear;
+  }
+  .icon-next-page {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease, opacity 0.2s linear;
+  }
+  .icon-page:hover,
+  .icon-next-page:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  } 
+  .icon-page:hover {
+   transform: scale(1.5);
+  }
+  .icon-next-page:hover {
+    transform: scale(1.5) rotate(180deg);
+  }
+  .vertical {
+    margin-right: 19px;
+  }
+  .horizontal {
+    margin-right: 1px;
+    margin-bottom: 2px;
+  }
