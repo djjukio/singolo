@@ -22,3 +22,140 @@
     padding: 0;
     box-sizing: border-box;
   }
+  .portfolio-section-wrapper {
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+  }
+  .portfolio-section {
+    margin: 0 auto;
+    width: 1020px;
+    height: 864px;
+    padding: 73px 40px;
+  }
+  .portfolio-header {
+    color: #666d89;
+    font-family: 'Lato Black';
+    font-size: 30px;
+    line-height: 17.86px;
+    letter-spacing: 0.0135em;
+  }
+  .portfolio-description {
+    margin-top: 27px;
+    font-family: 'Lato Light';
+    line-height: 30px;
+    color: #767e9e;
+    font-size: 18px;
+    word-spacing: 0.01em;
+    letter-spacing: -0.0135em;
+  }
+  .about-us-section-wrapper {
+    background-color: #f2f2f2;
+    border-bottom: 6px solid #ffffff;
+  }
+  .about-us-section {
+    margin: 0 auto;
+    width: 1020px;
+    height: 728px;
+    padding: 67px 40px;
+  }
+  button > span {
+    font-family: 'Lato Regular';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21.56px;
+    margin: 3px 6px;
+    word-spacing: 0.001em;
+  }
+  .button-all,
+  .button-web-design,
+  .button-graphic-design,
+  .button-artwork {
+    border: 1px solid #666d89;
+    border-radius: 5px;
+    color: #767e9e;
+    background: transparent;
+    cursor: pointer;
+  }
+  li > button:hover {
+    color: #dedede;
+    border: 1px solid #c5c5c5;
+  }
+  
+  .filter {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    margin-top: 7px;
+  }
+  .filter > li + li {
+    margin-left: 10px;
+  }
+  
+  .picture-grid {
+    margin-top: 19px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+    overflow: hidden;
+  }
+  
+  .team-container {
+    display: flex;
+    margin-top: 42px;
+  }
+  .team-person {
+    width: 300px;
+  }
+  .team-person + .team-person {
+    margin-left: 20px;
+  }
+  .team-person-contacts {
+    display: flex;
+    margin-top: 23px;
+  }
+  .team-person-contacts > li {
+    list-style-type: none;
+  }
+  li > a > img:hover {
+    opacity: 70%;
+  }
+  .team-person-contacts > li + li {
+    margin-left: 8px;
+  }
+  
+  .team-person-name {
+    color: #666d89;
+    font-family: 'Lato Black';
+    line-height: 17.86px;
+    font-size: 18px;
+    margin-top: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .team-person-description {
+    font-family: 'Lato Regular';
+    font-size: 12px;
+    line-height: 21.56px;
+    color: #767e9e;
+    margin-top: 10px;
+    text-justify: left;
+  }
+  .about-us-header {
+    font-family: 'Lato Black';
+    font-size: 30px;
+    line-height: 17.86px;
+    color: #666d89;
+    margin-top: 5px;
+  }
+  .about-us-description {
+    color: #767e9e;
+    font-family: 'Lato Regular';
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 26px;
+    word-spacing: 0.001em;
+    letter-spacing: -0.019em;
+  }
+  
